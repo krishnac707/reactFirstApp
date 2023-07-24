@@ -1,0 +1,20 @@
+.active-button{
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-left: 5%;
+}
+
+.inactive-button{
+    background-color: grey;
+    padding: 15px;
+    border-radius: 10px;
+    cursor:not-allowed;
+    color: black;
+    border: none;
+    margin-left: 5%;
+
+}

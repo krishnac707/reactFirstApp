@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allProductDiv{
+    margin-top: 5%;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productDiv{
+    width: 18%;
+    padding: 2%;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+.productDiv>img:nth-child(1){
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+}
+
+.productDiv>h4:nth-child(2){
+    margin-top: 5%;
+    width: 100%;
+    height: 100px;
+}
